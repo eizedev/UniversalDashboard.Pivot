@@ -1,5 +1,20 @@
 ﻿# UniversalDashboard.Pivot
 
+> [!IMPORTANT]
+> This module is no longer developed. Its successor is PowerShellUniversal.Component.Pivot, a pivot report builder for PowerShell Universal on [pivotkit](https://github.com/eizedev/pivotkit): drag fields into rows, columns, values and filters, table or chart, drill-down to the source rows, saved and shared views, Excel export.
+>
+> - Documentation: [powershell-universal-components.eize.dev/pivot](https://powershell-universal-components.eize.dev/pivot/)
+> - PowerShell Gallery: [PowerShellUniversal.Component.Pivot](https://www.powershellgallery.com/packages/PowerShellUniversal.Component.Pivot)
+> - Source: [eizedev/powershell-universal-components](https://github.com/eizedev/powershell-universal-components)
+>
+> ```powershell
+> Install-PSResource -Name PowerShellUniversal.Component.Pivot
+> ```
+>
+> It is not a drop-in replacement: the command is `New-UDPivotReport` instead of `New-UDPivot`, the layout is a view instead of `-Rows`, `-Cols`, `-Vals` and `-AggregatorName`, it needs PowerShell 7.4 or later, and it is tested on PowerShell Universal 2026.2 and 2026.3.
+>
+> The documentation below describes the old module and stays for existing installations.
+
 <!-- === Badges: Core status & distribution === -->
 | PS Gallery (downloads + version)                                                                          | License                              | Issues / PRs                                                              |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------ | ------------------------------------------------------------------------- |
